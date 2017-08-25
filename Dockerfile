@@ -17,7 +17,7 @@ FROM openshift/base-centos7
 # TODO: Install required packages here:
 # RUN yum install -y ... && yum clean all -y
 RUN yum install epel-release -y
-RUN yum install wine
+RUN yum install wine -y
 
 # TODO (optional): Copy the builder files into /opt/app-root
 # COPY ./<builder_folder>/ /opt/app-root/
